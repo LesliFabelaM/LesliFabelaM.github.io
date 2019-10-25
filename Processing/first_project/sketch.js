@@ -8,7 +8,7 @@ if(mouseIsPressed) {
   fill(c)
 }
 else {
-  fill(154, 54, 150);
+  fill(125, 101, 98);
 }
 ellipse(mouseX,mouseY,80,80)
 }
