@@ -4,11 +4,11 @@ function setup() {
 
 function draw() {
 if(mouseIsPressed) {
-  c = color(random(0, 255), random(0, 255), random(0, 255));
+  c = color(random(0, 250), random(0, 250), random(0, 250));
   fill(c)
 }
 else {
-  fill(125, 101, 98);
+  fill(15, 11, 158);
 }
 ellipse(mouseX,mouseY,80,80)
 }
